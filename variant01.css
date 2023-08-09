@@ -1,0 +1,43 @@
+body{
+    /* Récupération des couleurs grace au picker color */
+    background-color: rgb(243, 243, 243);
+    color: rgb(167, 169, 190);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    max-width: 590px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    text-align: center;
+}
+header p{
+    text-align: left;
+    margin-top: 30px;
+    padding: 0 20px 0 30px;    
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/* MAIN */
+main{
+    background-color: #0F0E17;
+    
+}
+
+/* FOOTER */
+footer{
+    background-color: #FF8906;
+}
+main, footer{
+    border-radius: 15px;
+    padding: 20px;
+}
+footer p{
+    color: white;
+}
+
