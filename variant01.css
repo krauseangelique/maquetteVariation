@@ -6,7 +6,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.6;
-    max-width: 590px;
+    max-width: 900px;
     margin: 0 auto;
 }
 /* HEADER */
@@ -18,10 +18,15 @@ header p{
     margin-top: 30px;
     padding: 0 20px 0 30px;    
 }
-h1{
+header h1{
     font-size: 50px;
     font-weight: 500;
 }
+header h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
 
 /* MAIN */
 main{
@@ -30,14 +35,23 @@ main{
 }
 
 /* FOOTER */
-footer{
+span.color, main h2, footer{
     background-color: #FF8906;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
 }
 main, footer{
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+footer{
+    margin-top: 40px;
 }
 footer p{
     color: white;
+    
 }
+
 
