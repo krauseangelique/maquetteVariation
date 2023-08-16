@@ -30,8 +30,23 @@ header h2{
 
 /* MAIN */
 main{
-    background-color: #0F0E17;
-    
+    background-color: #0F0E17;    
+}
+button{
+    box-shadow: 0 4px 8px -4px lightblue;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.btnFirst{
+    background-color: #F25F4C;
+}
+.btnSecond{
+    background-color: #E53170;
 }
 
 /* FOOTER */
@@ -43,15 +58,16 @@ span.color, main h2, footer{
 }
 main, footer{
     border-radius: 15px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
 }
 
 footer{
     margin-top: 40px;
 }
 footer p{
-    color: white;
-    
+    color: white;    
 }
+
+
 
 
